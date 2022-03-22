@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* seletores personalizados
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children        
+        
+        */
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: darkslateblue;
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(90, 221, 210);
+        }
+        a::before{
+            content: '🔗 ';
+        }
+        a::after{
+            
+            text-decoration: none;
+            font-weight: normal;
+            color: darkslateblue;
+            font-size: small;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>personalizando links!</h1>
+
+    <ul>
+        <li><a href="http://facebook.com" target="blank">facebook</a></li>
+        <li><a href="http://youtube.com" target="blank">youtube</a></li>
+        <li><a href="http://instagram.com" target="blank">instagram</a></li>
+
+    </ul>
+    
+</body>
+</html>

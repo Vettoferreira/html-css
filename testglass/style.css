@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'TRON';
+    src: url('Avayx.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body{
+    background-image: url(image.jpg);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    width: 600px;
+    height: 600px;
+}
+
+
+.glass{
+    border: 1px solid rgba(255, 255, 255, 0.466);
+    border-radius: 15px;
+    position: center;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+   
+    backdrop-filter: blur(5px); 
+
+}
+
+h1{
+    font-family: 'TRON' ,Arial, Helvetica, sans-serif;
+    color: rgb(240, 137, 89);
+    text-shadow: cornsilk 2em, 2em;
+    text-align: center;
+}
+
+.bot{
+    margin-top: 20em;
+    margin-left: 13em;
+    border-radius: 100px;
+    background-color: rgb(59, 101, 238);
+    color: rgb(252, 252, 252);
+    
+}
+picture{
+    margin: auto;
+
+
+}

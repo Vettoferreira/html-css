@@ -1,0 +1,25 @@
+*{
+    height: 100%;
+}   
+  /*background-color: white;
+  box-shadow: rgb(49, 17, 49);
+  width: 600px;
+  margin: auto;
+  height: 400px;
+  border-radius: 30px;
+  backdrop-filter: blur(2px);*/
+.glass{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(183, 248, 183), rgb(3, 172, 31), rgb(1, 37, 6));
+    background-attachment: fixed;
+}
+h1{
+    color: rgb(3, 3, 3);
+}
